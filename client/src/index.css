@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #232323;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+@font-face {
+    font-family: Forum;
+    src: local('Forum'), url('./fonts/Forum-Regular.ttf');
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: local('Bebas Neue'), url('./fonts/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: Dosis;
+    src: local('Dosis'), url('./fonts/Dosis/Dosis-VariableFont_wght.ttf');
+}

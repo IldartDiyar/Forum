@@ -1,0 +1,188 @@
+.post-container{
+    background-color: rgb(84, 107, 156);
+    position: relative;
+    height: 30vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+/* Header */
+.post-header{
+    min-height: 15%;
+    display: flex;    
+    color: black;
+}
+.post-header .post-header-date{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+}
+.post-header .post-header-date p{
+    margin-left: 15px;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+}
+
+.post-header .post-header-title{
+    height: 100%;
+    width: 100%;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-header .post-header-author{
+    height: 100%;
+    width: 100%;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.post-header .post-header-author p{
+    margin-right: 10px;
+    font-weight: 600;
+}
+/* Body */
+
+.post-body{
+    background-color: rgb(12, 17, 26);
+    min-height: 70%;
+    word-wrap:break-word;
+    overflow: auto;
+    color:rgb(193, 255, 255)
+}
+.post-body p {
+    padding: 10px;
+    /* font-family: Dosis; */
+    letter-spacing: 3px;
+    font-size: large;
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Footer */
+
+.post-footer{
+    min-height: 15%;
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.post-footer .post-footer-comments{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.post-footer .post-footer-likes{
+    height: 100%;
+    width: 100%;
+    color:rgb(193, 255, 255);
+
+    display: flex;
+    align-items: center;
+}
+.post-footer .post-footer-likes p{
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+.post-footer .post-footer-likes-icons{
+    margin: 0 15px 0 auto;
+}
+
+.link-style{
+    text-decoration: none;
+    color:rgb(193, 255, 255)
+
+}
+/* ADD COMMENT */
+
+.add-comment-button:hover{
+    cursor: pointer;
+    color: aquamarine;
+    transition: 0.5s;
+}
+.add-comment-button:active{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.add-comment-input{
+    width: 96%;
+    margin: 10px;
+}
+
+.add-comment-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+/*Add comment Button */
+/* .frame {
+    height: 100%;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+  } */
+  
+  .custom-btn {
+    flex: 1;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+.btn-15 {
+    background: #5170d6;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+    /* background-color: #58da47; */
+  }
+  

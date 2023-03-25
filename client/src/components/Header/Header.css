@@ -1,0 +1,49 @@
+.button {
+	--x: 50%;
+	--y: 50%;
+  
+  height: 100%;
+  appearance: none;
+	color: white;
+	cursor: pointer;
+	outline: none;
+  white-space: nowrap;
+	border-radius: 10px;
+	border: 2px solid transparent;
+	background: linear-gradient(#000, #000) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+}
+
+.nav {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.nav a{
+height: 60%;
+}
+
+.title{
+  width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.title h1{
+  --x: 50%;
+	--y: 50%;
+  font-family: Bebas Neue;
+  letter-spacing: 20px;
+  border: 2px solid transparent;
+	background: radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.authorization{
+  width: 100%; 
+  max-height: 100%;
+  display: inline-block;
+}
+.authorization a{
+  height: 60%;
+}
